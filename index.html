@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crystals Collector</title>
+ 
+<link href="assets/css/reset.css" rel ="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link href="assets/css/style.css" rel ="stylesheet">
+</head>
+
+<body onload="startup()">
+
+<div class ="container"> 
+  <!-- This div (first row) has the title -->
+  <div class = "row" id= "First_Row">
+    <div class ="col-sm-3" id= "GameLabel"><h3>Crystals Collector!</h3></div>
+    <div class ="col-sm-9"></div>
+
+  </div>
+
+  <!-- This div (second row) has the game description -->
+  <div class = "row" >
+      <div class ="col-sm-6" id= "game_desc"><p>You will be given a random number at the start of the game. <br><br> There are four crystals below. By clicking on a crystal you will 
+        add a specific amount of points to your total score. <br><br> You win by matching your total score with to the random number, you lose 
+        if you total score goes above the random number.<br><br>The value of each crystal is hidden from you until you click on it.<br><br>
+        Each time the game starts, the game will change the values of each crystal.
+        </p></div>
+      <div class ="col-sm-6"></div>
+  </div>
+  
+  <!-- This div (third row) displays the computer generated number and the Wins/Losses values -->
+  <div class = "row" id="Third_Row">
+      <div class ="col-sm-2" id = "rnd_nm"><h1><span id="number-to-guess"></span></h1></div>
+      <div class ="col-sm-1" id = "wins_losses">
+        <div class = "row" id="wins"></div>
+        <div class = "row" id="losses"></div>
+      </div>    
+  </div>
+
+  <!-- Note that this div (fourth row) that has images is now empty. We will fill it dynamically -->
+  <div class = "row" id="crystals"></div>
+  
+  <!-- Note that this div (fifth row) is just for the label --> 
+  <div class = "row" id="Fifth_Row">
+      <div class ="col-sm-3" id= "Ttl_scr_lbl"><h4>Your total score: </h4></div>
+      <div class ="col-sm-8"></div>
+  </div>
+  
+  <!-- Finally this div (sixth row) is for displaying the user score after each click -->
+  <div class = "row" id="user_Score">
+  </div>
+
+</div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

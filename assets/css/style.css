@@ -1,0 +1,48 @@
+#GameLabel{
+  background-color: brown;
+  color: azure;
+  margin-top: 10px;
+  text-align: center;
+}
+#game_desc{
+  background-color: lightpink;
+  margin-top: 10px;
+  color: green;
+  margin-bottom: 10px;
+}
+#rnd_nm{
+  background-color: green;
+  color: black;
+  margin-bottom: 10px;
+}
+#wins_losses{
+  margin-left: 10px;
+  background-color: violet;
+  color: black;
+  margin-bottom: 10px;
+}
+.crystal-image {
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+  }
+#Ttl_scr_lbl{
+  background-color: teal;
+  color: azure;
+  margin-top: 10px;
+}
+#user_Score {
+  background-color: teal;
+  color: azure;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 284px;
+  padding-left: 15px;
+  font-weight: bold;
+  height: 50px;
+  font-size: 25px;
+}
+ 
+  body{
+    background-color:lightskyblue;
+  }

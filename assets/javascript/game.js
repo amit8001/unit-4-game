@@ -34,10 +34,9 @@ function startup(){
   console.log(numberOptions);
 
 //Defining an images array to store the 4 images for each of the crsytals
-  var imgSrc = ["http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg",
-  "assets/images/jewel_1.jpg",
+  var imgSrc = ["assets/images/jewel_1.jpg",
   "assets/images/jewel_2.jpg",
-  "assets/images/jewel_3.jpg"]
+  "assets/images/jewel_3.jpg","assets/images/jewel_4.jpg"]
 
   // Next we create a for loop to create crystals for every numberOption.
   for (var i = 0; i < numberOptions.length; i++) {
